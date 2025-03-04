@@ -134,82 +134,26 @@ ALTER TABLE ONLY public.teams ALTER COLUMN team_id SET DEFAULT nextval('public.t
 -- Data for Name: games; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.games VALUES (33, 2018, 'Final', 40, 47, 4, 2);
-INSERT INTO public.games VALUES (34, 2018, 'Third Place', 30, 33, 2, 0);
-INSERT INTO public.games VALUES (35, 2018, 'Semi-Final', 47, 33, 2, 1);
-INSERT INTO public.games VALUES (36, 2018, 'Semi-Final', 40, 30, 1, 0);
-INSERT INTO public.games VALUES (37, 2018, 'Quarter-Final', 47, 37, 3, 2);
-INSERT INTO public.games VALUES (38, 2018, 'Quarter-Final', 33, 25, 2, 0);
-INSERT INTO public.games VALUES (39, 2018, 'Quarter-Final', 30, 38, 2, 1);
-INSERT INTO public.games VALUES (40, 2018, 'Quarter-Final', 40, 31, 2, 0);
-INSERT INTO public.games VALUES (41, 2018, 'Eighth-Final', 33, 27, 2, 1);
-INSERT INTO public.games VALUES (42, 2018, 'Eighth-Final', 25, 46, 1, 0);
-INSERT INTO public.games VALUES (43, 2018, 'Eighth-Final', 30, 36, 3, 2);
-INSERT INTO public.games VALUES (44, 2018, 'Eighth-Final', 38, 39, 2, 0);
-INSERT INTO public.games VALUES (45, 2018, 'Eighth-Final', 47, 45, 2, 1);
-INSERT INTO public.games VALUES (46, 2018, 'Eighth-Final', 37, 43, 2, 1);
-INSERT INTO public.games VALUES (47, 2018, 'Eighth-Final', 31, 26, 2, 1);
-INSERT INTO public.games VALUES (48, 2018, 'Eighth-Final', 40, 44, 4, 3);
-INSERT INTO public.games VALUES (49, 2014, 'Final', 32, 44, 1, 0);
-INSERT INTO public.games VALUES (50, 2014, 'Third Place', 42, 38, 3, 0);
-INSERT INTO public.games VALUES (51, 2014, 'Semi-Final', 44, 42, 1, 0);
-INSERT INTO public.games VALUES (52, 2014, 'Semi-Final', 32, 38, 7, 1);
-INSERT INTO public.games VALUES (53, 2014, 'Quarter-Final', 42, 48, 1, 0);
-INSERT INTO public.games VALUES (54, 2014, 'Quarter-Final', 44, 30, 1, 0);
-INSERT INTO public.games VALUES (55, 2014, 'Quarter-Final', 38, 27, 2, 1);
-INSERT INTO public.games VALUES (56, 2014, 'Quarter-Final', 32, 40, 1, 0);
-INSERT INTO public.games VALUES (57, 2014, 'Eighth-Final', 38, 35, 2, 1);
-INSERT INTO public.games VALUES (58, 2014, 'Eighth-Final', 27, 31, 2, 0);
-INSERT INTO public.games VALUES (59, 2014, 'Eighth-Final', 40, 29, 2, 0);
-INSERT INTO public.games VALUES (60, 2014, 'Eighth-Final', 32, 28, 2, 1);
-INSERT INTO public.games VALUES (61, 2014, 'Eighth-Final', 42, 39, 2, 1);
-INSERT INTO public.games VALUES (62, 2014, 'Eighth-Final', 48, 34, 2, 1);
-INSERT INTO public.games VALUES (63, 2014, 'Eighth-Final', 44, 46, 1, 0);
-INSERT INTO public.games VALUES (64, 2014, 'Eighth-Final', 30, 41, 2, 1);
 
 
 --
 -- Data for Name: teams; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.teams VALUES (25, 'Sweden');
-INSERT INTO public.teams VALUES (26, 'Portugal');
-INSERT INTO public.teams VALUES (27, 'Colombia');
-INSERT INTO public.teams VALUES (28, 'Algeria');
-INSERT INTO public.teams VALUES (29, 'Nigeria');
-INSERT INTO public.teams VALUES (30, 'Belgium');
-INSERT INTO public.teams VALUES (31, 'Uruguay');
-INSERT INTO public.teams VALUES (32, 'Germany');
-INSERT INTO public.teams VALUES (33, 'England');
-INSERT INTO public.teams VALUES (34, 'Greece');
-INSERT INTO public.teams VALUES (35, 'Chile');
-INSERT INTO public.teams VALUES (36, 'Japan');
-INSERT INTO public.teams VALUES (37, 'Russia');
-INSERT INTO public.teams VALUES (38, 'Brazil');
-INSERT INTO public.teams VALUES (39, 'Mexico');
-INSERT INTO public.teams VALUES (40, 'France');
-INSERT INTO public.teams VALUES (41, 'United States');
-INSERT INTO public.teams VALUES (42, 'Netherlands');
-INSERT INTO public.teams VALUES (43, 'Spain');
-INSERT INTO public.teams VALUES (44, 'Argentina');
-INSERT INTO public.teams VALUES (45, 'Denmark');
-INSERT INTO public.teams VALUES (46, 'Switzerland');
-INSERT INTO public.teams VALUES (47, 'Croatia');
-INSERT INTO public.teams VALUES (48, 'Costa Rica');
 
 
 --
 -- Name: games_game_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.games_game_id_seq', 64, true);
+SELECT pg_catalog.setval('public.games_game_id_seq', 1, false);
 
 
 --
 -- Name: teams_team_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.teams_team_id_seq', 48, true);
+SELECT pg_catalog.setval('public.teams_team_id_seq', 1, false);
 
 
 --
